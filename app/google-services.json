@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "237680358544",
+    "project_id": "pc-build-logger",
+    "storage_bucket": "pc-build-logger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237680358544:android:75b00141d36b0cf7f79415",
+        "android_client_info": {
+          "package_name": "hr.ferit.pcbuildlogger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237680358544-f2lje1eq013s9juck76fl09uarhacivr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hr.ferit.pcbuildlogger",
+            "certificate_hash": "da76edd255d9debfdfcc162dc26c9dfbc57e9afe"
+          }
+        },
+        {
+          "client_id": "237680358544-graft839kfc8mv9t8bpotq78qiocddtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK3FzI1OBW0_hl_uzg4Zb-fE-9YLOen8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237680358544-graft839kfc8mv9t8bpotq78qiocddtt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
