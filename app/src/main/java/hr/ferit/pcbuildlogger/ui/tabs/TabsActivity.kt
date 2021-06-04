@@ -1,14 +1,19 @@
 package hr.ferit.pcbuildlogger.ui.tabs
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
 import hr.ferit.pcbuildlogger.R
+import hr.ferit.pcbuildlogger.data.model.PcBuild
 import hr.ferit.pcbuildlogger.databinding.ActivityTabsBinding
+import hr.ferit.pcbuildlogger.ui.pcbuild.PcBuildFragment
+import hr.ferit.pcbuildlogger.utiliites.DialogListener
+import hr.ferit.pcbuildlogger.utiliites.OnPcBuildClickListener
 
 
-class TabsActivity : AppCompatActivity() {
+class TabsActivity : AppCompatActivity(), DialogListener{
 
     lateinit var tabsBinding: ActivityTabsBinding
     private lateinit var tabLayout: TabLayout
@@ -46,5 +51,9 @@ class TabsActivity : AppCompatActivity() {
 
             }
         })
+    }
+
+    override fun onDialogPositiveClick(data: String) {
+        PcBuildFragment().onDialogPositiveClick(data)
     }
 }

@@ -4,9 +4,8 @@ import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import hr.ferit.pcbuildlogger.ui.pcbuild.PCBuildFragment
+import hr.ferit.pcbuildlogger.ui.pcbuild.PcBuildFragment
 import hr.ferit.pcbuildlogger.ui.user.UserFragment
-import hr.ferit.pcbuildlogger.ui.user.UserManagementFragment
 
 class TabAdapter(private val context: Context, fragmentManager: FragmentManager) : FragmentPagerAdapter(fragmentManager, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
@@ -23,9 +22,9 @@ class TabAdapter(private val context: Context, fragmentManager: FragmentManager)
     override fun getItem(position: Int): Fragment {
         return when (position) {
             0 -> {
-                UserManagementFragment.create()
+                UserFragment.create()
             }
-            else -> PCBuildFragment.create()
+            else -> PcBuildFragment.create()
         }
     }
 

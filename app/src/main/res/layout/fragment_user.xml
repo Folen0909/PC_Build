@@ -13,7 +13,8 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_user_email"
         android:layout_margin="16dp"
         android:textSize="20sp"
-        android:text="@string/user_email"/>
+        android:text="@string/user_email"
+        android:textColor="@color/white"/>
 
     <TextView
         android:id="@+id/tv_user_email"
@@ -23,7 +24,8 @@
         app:layout_constraintStart_toEndOf="@+id/tv_email"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="16dp"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
 
     <TextView
         android:id="@+id/tv_id"
@@ -34,7 +36,8 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_user_id"
         android:layout_margin="16dp"
         android:textSize="20sp"
-        android:text="@string/user_id"/>
+        android:text="@string/user_id"
+        android:textColor="@color/white"/>
 
     <TextView
         android:id="@+id/tv_user_id"
@@ -44,7 +47,8 @@
         app:layout_constraintStart_toEndOf="@+id/tv_id"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="16dp"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/btn_user_logout"
@@ -54,6 +58,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="16dp"
-        android:text="@string/user_logout"/>
+        android:text="@string/user_logout"
+        android:textColor="@color/white"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
